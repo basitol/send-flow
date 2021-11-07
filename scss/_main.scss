@@ -1,0 +1,35 @@
+@media only screen and (min-width: 640px) {
+  body {
+    display: none;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: auto;
+  margin: inherit;
+  padding-bottom: 20px;
+  padding: inherit;
+  box-sizing: inherit;
+  background-image: url("../img/image2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "DM Sans", sans-serif;
+}
+
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+}
+
+.header {
+}
